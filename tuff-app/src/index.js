@@ -9,4 +9,8 @@ import "./styles/index.css";
 
 import App from './components/App/App';
 
-createRoot(document.getElementById("root")).render( < BrowserRouter > < App / > < /BrowserRouter>);
+createRoot(document.getElementById("root")).render(
+<BrowserRouter> 
+    <App /> 
+</BrowserRouter>
+);
