@@ -6,5 +6,5 @@ const AppRoutes = () => (
     <Routes>
         <Route index element={<Home />} />
     </Routes>
-)
+);
 export default AppRoutes;
