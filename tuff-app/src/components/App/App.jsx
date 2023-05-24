@@ -7,9 +7,8 @@ import Sidebar from '../Sidebar/Sidebar';
 const App = () => {
   return (
     <div className="app">
-      <Header />
-      
       <div className="container">
+      <Header />
       <Sidebar  />
       <AppRoutes />
 
